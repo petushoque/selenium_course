@@ -4,7 +4,7 @@ import time
 try:
     browser = webdriver.Chrome()
     browser.get("http://suninjuly.github.io/huge_form.html")
-    elements = browser.find_elements_by_tag ("input")
+    elements = browser.find_elements_by_tag_name("input")
     for element in elements:
         element.send_keys("Привет, мир")
 
