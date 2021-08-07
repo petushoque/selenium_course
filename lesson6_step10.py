@@ -7,7 +7,9 @@ try:
     browser.get(link)
 
     # Ваш код, который заполняет обязательные поля
-    ...
+    elements = browser.find_elements_by_tag_name("input")
+        for element in elements:
+            element.send_keys("Привет, мир")
 
     # Отправляем заполненную форму
     button = browser.find_element_by_css_selector("button.btn")
