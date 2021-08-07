@@ -8,9 +8,12 @@ try:
 
     # Ваш код, который заполняет обязательные поля
 
-    elements = browser.find_elements_by_tag_name("input")
-    for element in elements:
-        element.send_keys("Привет, мир")
+    first_block_first = browser.find_element_by_css_selector(".first_block .first")
+    first_block_first.send_keys("Test first name")
+    first_block_second = browser.find_element_by_css_selector(".first_block .second")
+    first_block_second.send_keys("Test last name")
+    first_block_second = browser.find_element_by_css_selector(".first_block .third")
+    first_block_second.send_keys("Test email")
 
     # Отправляем заполненную форму
     button = browser.find_element_by_css_selector("button.btn")
