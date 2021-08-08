@@ -19,7 +19,7 @@ try:
 
     # Найти поле ввода ответа
     input_answer = browser.find_element_by_id("answer")
-    input_answer.send_keys(x_value)
+    input_answer.send_keys(x_value.text)
 
     # Отправляем заполненную форму
     button = browser.find_element_by_css_selector("button.btn")
