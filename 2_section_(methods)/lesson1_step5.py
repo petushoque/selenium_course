@@ -16,7 +16,7 @@ try:
 
     # Основная часть кода, клики по чекбоксам и радиокнопкам
     input_answer = browser.find_element_by_id("answer")
-    first_block_first.send_keys("Test first name")
+    input_answer.send_keys("Test first name")
 
     # Отправляем заполненную форму
     button = browser.find_element_by_css_selector("button.btn")
