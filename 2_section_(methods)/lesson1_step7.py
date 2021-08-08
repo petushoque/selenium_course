@@ -15,7 +15,8 @@ try:
     browser.get(link)
 
     # Найти вводные данные для вычисления
-    x_value = browser.find_element_by_id("input_value")
+    treasure = browser.find_element_by_id("treasure")
+    x_value = treasure.get_attribute("valuex")
 
     # Вычислить результат
     result = calc(x_value.text)
