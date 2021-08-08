@@ -19,7 +19,7 @@ try:
     x_value = treasure.get_attribute("valuex")
 
     # Вычислить результат
-    result = calc(x_value.text)
+    result = calc(x_value)
 
     # Найти поле ввода ответа
     input_answer = browser.find_element_by_id("answer")
