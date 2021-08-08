@@ -17,9 +17,12 @@ try:
     # Найти вводные данные для вычисления
     x_value = browser.find_element_by_id("input_value")
 
+    # Вычислить результат
+    result = calc(x_value.text)
+
     # Найти поле ввода ответа
     input_answer = browser.find_element_by_id("answer")
-    input_answer.send_keys(x_value.text)
+    input_answer.send_keys(result)
 
     # Отправляем заполненную форму
     button = browser.find_element_by_css_selector("button.btn")
