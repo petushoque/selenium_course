@@ -1,13 +1,19 @@
 from selenium import webdriver
 import time
 
-try: 
-    link = "http://suninjuly.github.io/registration2.html"
+import math
+
+def calc(x):
+  return str(math.log(abs(12*math.sin(int(x)))))
+
+link = "http://suninjuly.github.io/math.html"
+
+try:
+    # Открыть страницу    
     browser = webdriver.Chrome()
     browser.get(link)
 
-    # Ваш код, который заполняет обязательные поля
-
+    # Основная часть кода, клики по чекбоксам и радиокнопкам
     first_block_first = browser.find_element_by_css_selector(".first_block .first")
     first_block_first.send_keys("Test first name")
     first_block_second = browser.find_element_by_css_selector(".first_block .second")
