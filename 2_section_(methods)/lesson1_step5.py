@@ -28,6 +28,10 @@ try:
     robot_checkbox = browser.find_element_by_id("robotCheckbox")
     robot_checkbox.click()
 
+    # Отметить радиокнопку
+    robot_radio = browser.find_element_by_id("robotsRule")
+    robot_radio.click()
+
     # Отправляем заполненную форму
     button = browser.find_element_by_css_selector("button.btn")
     button.click()
