@@ -1,4 +1,5 @@
 from selenium import webdriver
+from selenium.webdriver.support.ui import Select
 import time
 import math
 
@@ -10,23 +11,15 @@ try:
     browser.get(link)
 
     # Найти вводные данные для вычисления
-    treasure = browser.find_element_by_id("treasure")
-    x_value = treasure.get_attribute("valuex")
-
+    num_1 = browser.find_element_by_id("num1").text
+    num_2 = browser.find_element_by_id("num2").text
+    
     # Вычислить результат
-    result = calc(x_value)
+    result = num_1 + num_2
 
-    # Найти поле ввода ответа
-    input_answer = browser.find_element_by_id("answer")
-    input_answer.send_keys(result)
-
-    # Отметить чекбокс
-    robot_checkbox = browser.find_element_by_id("robotCheckbox")
-    robot_checkbox.click()
-
-    # Отметить радиокнопку
-    robot_radio = browser.find_element_by_id("robotsRule")
-    robot_radio.click()
+    # Найти селектор и выбрать нужный вариант
+    select = Select(browser.find_element_by_tag_name("select"))
+    select.select_by_visible_text(result)
 
     # Отправляем заполненную форму
     button = browser.find_element_by_css_selector("button.btn")
