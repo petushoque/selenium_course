@@ -3,6 +3,7 @@ import time
 
 import math
 
+# Функция для вычисления значения выражения
 def calc(x):
   return str(math.log(abs(12*math.sin(int(x)))))
 
@@ -14,12 +15,8 @@ try:
     browser.get(link)
 
     # Основная часть кода, клики по чекбоксам и радиокнопкам
-    first_block_first = browser.find_element_by_css_selector(".first_block .first")
+    input_answer = browser.find_element_by_id("answer")
     first_block_first.send_keys("Test first name")
-    first_block_second = browser.find_element_by_css_selector(".first_block .second")
-    first_block_second.send_keys("Test last name")
-    first_block_third = browser.find_element_by_css_selector(".first_block .third")
-    first_block_third.send_keys("Test email")
 
     # Отправляем заполненную форму
     button = browser.find_element_by_css_selector("button.btn")
