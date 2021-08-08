@@ -5,17 +5,20 @@ import math
 
 link = "http://suninjuly.github.io/selects1.html"
 
+def sum_func(a, b):
+  return a + b
+
 try:
     # Открыть страницу    
     browser = webdriver.Chrome()
     browser.get(link)
 
     # Найти вводные данные для вычисления
-    num_1 = browser.find_element_by_id("num1").text
-    num_2 = browser.find_element_by_id("num2").text
+    num_1 = browser.find_element_by_id("num1")
+    num_2 = browser.find_element_by_id("num2")
     
     # Вычислить результат
-    result = num_1 + num_2
+    result = sum_func(num_1.text, num_2.text)
 
     # Найти селектор и выбрать нужный вариант
     select = Select(browser.find_element_by_tag_name("select"))
