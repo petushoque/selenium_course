@@ -16,6 +16,10 @@ try:
     # Найти вводные данные для вычисления
     x_value = browser.find_element_by_id("input_value")
 
+    # Найти панель ввода результата и отправить результат вычислений
+    answer_field = browser.find_element_by_id("answer")
+    answer_field.send_keys(x_value.text)
+
     #browser.execute_script("alert('Robots at work');")
     
 finally:
