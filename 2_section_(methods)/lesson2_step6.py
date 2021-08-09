@@ -32,7 +32,7 @@ try:
     robot_radio = browser.find_element_by_id("robotsRule")
     robot_radio.click()
 
-    # Проскроллить страницу до кнопки
+    # Найти кнопку и отправить ответ
     button = browser.find_element_by_tag_name("button")
     button.click()
     
