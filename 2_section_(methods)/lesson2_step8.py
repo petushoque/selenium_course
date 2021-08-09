@@ -19,8 +19,10 @@ try:
 
     # Загрузить фаил
     current_dir = os.path.abspath(os.path.dirname(__file__))    # получаем путь к директории текущего исполняемого файла 
-    file_path = os.path.join(current_dir, 'file.txt')   
-    input_file = browser.find_element_by_name(file_path)
+    file_name = "file.txt"
+    file_path = os.path.join(current_dir, file_name)   
+    input_file = browser.find_element_by_name("file")
+    input_file.send_keys(file_path)
     
 
     # Найти кнопку и отправить ответ
