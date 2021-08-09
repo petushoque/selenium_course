@@ -25,6 +25,7 @@ try:
 
     # Отметить чекбокс
     robot_checkbox = browser.find_element_by_id("robotCheckbox")
+    browser.execute_script("return arguments[0].scrollIntoView(true);", robot_checkbox)
     robot_checkbox.click()
 
     # Отметить радиокнопку
@@ -33,7 +34,6 @@ try:
 
     # Проскроллить страницу до кнопки
     button = browser.find_element_by_tag_name("button")
-    browser.execute_script("return arguments[0].scrollIntoView(true);", button)
     button.click()
     
 finally:
