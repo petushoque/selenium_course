@@ -24,7 +24,8 @@ try:
     answer_field.send_keys(result)
 
     # Проскроллить страницу до кнопки
-    
+    button = browser.find_element_by_css_selector("button.btn")
+    browser.execute_script("return arguments[0].scrollIntoView(true);", button)
 
     #browser.execute_script("alert('Robots at work');")
     
