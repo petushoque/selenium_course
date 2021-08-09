@@ -32,7 +32,7 @@ try:
     robot_radio.click()
 
     # Проскроллить страницу до кнопки
-    button = browser.find_element_by_css_selector("button.btn")
+    button = browser.find_element_by_tag_name("button")
     browser.execute_script("return arguments[0].scrollIntoView(true);", button)
     
 finally:
