@@ -23,6 +23,9 @@ try:
     answer_field = browser.find_element_by_id("answer")
     answer_field.send_keys(result)
 
+    # Проскроллить страницу до кнопки
+    
+
     #browser.execute_script("alert('Robots at work');")
     
 finally:
