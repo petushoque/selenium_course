@@ -34,6 +34,7 @@ try:
     # Проскроллить страницу до кнопки
     button = browser.find_element_by_tag_name("button")
     browser.execute_script("return arguments[0].scrollIntoView(true);", button)
+    button.click()
     
 finally:
     # ожидание чтобы визуально оценить результаты прохождения скрипта
