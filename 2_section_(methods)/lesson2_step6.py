@@ -1,4 +1,10 @@
 from selenium import webdriver
+import time
+import math
+
+# Функция для вычисления значения выражения
+def calc(x):
+  return str(math.log(abs(12*math.sin(int(x)))))
 
 link = "http://SunInJuly.github.io/execute_script.html"
 
