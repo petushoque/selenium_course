@@ -1,6 +1,6 @@
 from selenium import webdriver
 import time
-import math
+import os
 
 link = "http://suninjuly.github.io/file_input.html"
 
@@ -16,6 +16,10 @@ try:
     input_last_name.send_keys("World")
     input_email = browser.find_element_by_name("email")
     input_email.send_keys("email@email.ru")
+
+    # Загрузить фаил
+    input_file = browser.find_element_by_name("file")
+    
 
     # Найти кнопку и отправить ответ
     button = browser.find_element_by_tag_name("button")
