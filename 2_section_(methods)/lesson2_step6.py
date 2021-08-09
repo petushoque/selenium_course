@@ -14,7 +14,9 @@ try:
     browser.get(link)
 
     # Найти вводные данные для вычисления
-    browser.execute_script("alert('Robots at work');")
+    x_value = browser.find_element_by_id("input_value")
+
+    #browser.execute_script("alert('Robots at work');")
     
 finally:
     # ожидание чтобы визуально оценить результаты прохождения скрипта
