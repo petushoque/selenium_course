@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-link = "http://suninjuly.github.io/selects1.html"
+link = "http://SunInJuly.github.io/execute_script.html"
 
 try:
     # Открыть страницу    
