@@ -1,1 +1,1 @@
-[Эта ссылка](https://github.com/petushoque/selenium_course/blob/main/2_section_(methods)/lesson2_step8.py) Загрузка фаила.
+[2.2.8](https://github.com/petushoque/selenium_course/blob/main/2_section_(methods)/lesson2_step8.py) Загрузка фаила
