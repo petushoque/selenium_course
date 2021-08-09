@@ -23,7 +23,7 @@ try:
     answer_field = browser.find_element_by_id("answer")
     answer_field.send_keys(result)
 
-    # Отметить чекбокс
+    # Найти чекбокс, пролистать до него страницу и поставить флажок
     robot_checkbox = browser.find_element_by_id("robotCheckbox")
     browser.execute_script("return arguments[0].scrollIntoView(true);", robot_checkbox)
     robot_checkbox.click()
