@@ -23,11 +23,17 @@ try:
     answer_field = browser.find_element_by_id("answer")
     answer_field.send_keys(result)
 
+    # Отметить чекбокс
+    robot_checkbox = browser.find_element_by_id("robotCheckbox")
+    robot_checkbox.click()
+
+    # Отметить радиокнопку
+    robot_radio = browser.find_element_by_id("robotsRule")
+    robot_radio.click()
+
     # Проскроллить страницу до кнопки
     button = browser.find_element_by_css_selector("button.btn")
     browser.execute_script("return arguments[0].scrollIntoView(true);", button)
-
-    #browser.execute_script("alert('Robots at work');")
     
 finally:
     # ожидание чтобы визуально оценить результаты прохождения скрипта
