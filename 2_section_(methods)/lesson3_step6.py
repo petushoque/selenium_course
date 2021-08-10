@@ -18,6 +18,9 @@ try:
     button = browser.find_element_by_css_selector("button.trollface")
     button.click()
 
+    # Перейти в новую вкладку
+    new_window = browser.window_handles[1]
+
     # Найти вводные данные для вычисления
     x_value = browser.find_element_by_id("input_value")
 
