@@ -22,9 +22,8 @@ try:
     alert = browser.switch_to.alert
     alert.accept()
 
-    # Найти поле ввода ответа
-    input_answer = browser.find_element_by_id("answer")
-    input_answer.send_keys(result)
+    # Найти вводные данные для вычисления
+    x_value = browser.find_element_by_id("input_value")
 
     # Вычислить результат
     result = calc(x_value)
