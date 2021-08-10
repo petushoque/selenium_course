@@ -13,3 +13,6 @@
 * [1.6.5](https://github.com/petushoque/selenium_course/blob/main/1_section_(intro)/lesson6_step5.py) Поиск элемента по тексту;
 * [1.6.7](https://github.com/petushoque/selenium_course/blob/main/1_section_(intro)/lesson6_step7.py) Поиск нескольких элементов;
 * [1.6.8](https://github.com/petushoque/selenium_course/blob/main/1_section_(intro)/lesson6_step8.py) Поиск элемента по xPath
+* [1.6.10](https://github.com/petushoque/selenium_course/blob/main/1_section_(intro)/lesson6_step10.py) Уникальность селекторов;
+* [1.6.11](https://github.com/petushoque/selenium_course/blob/main/1_section_(intro)/lesson6_step11.py) Уникальность селекторов, часть 2;
+- - -
