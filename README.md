@@ -1,5 +1,6 @@
 # Содержание
 - - -
+### 
 * [2.1.5](https://github.com/petushoque/selenium_course/blob/main/2_section_(methods)/lesson1_step5.py) Чекбокс и радиокнопка;
 * [2.1.7](https://github.com/petushoque/selenium_course/blob/main/2_section_(methods)/lesson1_step7.py) Получить значение атрибута;
 * [2.2.3](https://github.com/petushoque/selenium_course/blob/main/2_section_(methods)/lesson2_step3.py) Выбор варианта из селектора;
@@ -9,6 +10,7 @@
 * [2.3.4](https://github.com/petushoque/selenium_course/blob/main/2_section_(methods)/lesson3_step4.py) Принять alert;
 * [2.3.6](https://github.com/petushoque/selenium_course/blob/main/2_section_(methods)/lesson3_step6.py) Перейти на другую вкладку;
 - - -
+### Введение &#128118;
 * [1.6.4](https://github.com/petushoque/selenium_course/blob/main/1_section_(intro)/lesson6_step4.py) Поиск элементов на странице;
 * [1.6.5](https://github.com/petushoque/selenium_course/blob/main/1_section_(intro)/lesson6_step5.py) Поиск элемента по тексту;
 * [1.6.7](https://github.com/petushoque/selenium_course/blob/main/1_section_(intro)/lesson6_step7.py) Поиск нескольких элементов;
