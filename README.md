@@ -11,3 +11,5 @@
 - - -
 * [1.6.4](https://github.com/petushoque/selenium_course/blob/main/1_section_(intro)/lesson6_step4.py) Поиск элементов на странице;
 * [1.6.5](https://github.com/petushoque/selenium_course/blob/main/1_section_(intro)/lesson6_step5.py) Поиск элемента по тексту;
+* [1.6.7](https://github.com/petushoque/selenium_course/blob/main/1_section_(intro)/lesson6_step7.py) Поиск нескольких элементов;
+* [1.6.8](https://github.com/petushoque/selenium_course/blob/main/1_section_(intro)/lesson6_step8.py) Поиск элемента по xPath
