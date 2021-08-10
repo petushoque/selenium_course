@@ -12,6 +12,10 @@ try:
     # Найти и нажать на основную кнопку
     button = browser.find_element_by_css_selector("button")
     button.click()
+
+    # Найти и принять alert
+    alert = browser.switch_to.alert
+    alert.accept()
     
 finally:
     # Десятичекундная пауза
