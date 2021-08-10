@@ -26,7 +26,7 @@ try:
     x_value = browser.find_element_by_id("input_value")
 
     # Вычислить результат
-    result = calc(x_value)
+    result = calc(x_value.text)
 
     # Найти поле ввода ответа
     input_answer = browser.find_element_by_id("answer")
