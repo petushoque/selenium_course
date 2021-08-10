@@ -7,4 +7,5 @@
 * [2.2.6](https://github.com/petushoque/selenium_course/blob/main/2_section_(methods)/lesson2_step6.py) Скролл страницы до элемента;
 * [2.2.8](https://github.com/petushoque/selenium_course/blob/main/2_section_(methods)/lesson2_step8.py) Загрузка фаила;
 * [2.3.4](https://github.com/petushoque/selenium_course/blob/main/2_section_(methods)/lesson3_step4.py) Принять alert;
+* [2.3.6](https://github.com/petushoque/selenium_course/blob/main/2_section_(methods)/lesson3_step6.py) Перейти на другую вкладку;
 - - -
