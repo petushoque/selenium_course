@@ -9,3 +9,5 @@
 * [2.3.4](https://github.com/petushoque/selenium_course/blob/main/2_section_(methods)/lesson3_step4.py) Принять alert;
 * [2.3.6](https://github.com/petushoque/selenium_course/blob/main/2_section_(methods)/lesson3_step6.py) Перейти на другую вкладку;
 - - -
+* [1.6.4](https://github.com/petushoque/selenium_course/blob/main/1_section_(intro)/lesson6_step4.py) Поиск элементов на странице;
+* [1.6.5](https://github.com/petushoque/selenium_course/blob/main/1_section_(intro)/lesson6_step5.py) Поиск элемента по тексту;
