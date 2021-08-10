@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 import os
 
-link = "http://suninjuly.github.io/file_input.html"
+link = "http://suninjuly.github.io/alert_accept.html"
 
 try:
     # Открыть страницу    
