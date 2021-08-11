@@ -40,7 +40,7 @@ try:
   input_answer.send_keys(result)
 
   # Найти кнопку submit и отправить решение
-  submit_button = browser.find_element_by_css_selector("button.btn-primary")
+  submit_button = browser.find_element_by_id("solve")
   submit_button.click()
 
 finally:
