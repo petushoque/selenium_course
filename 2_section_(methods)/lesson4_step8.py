@@ -26,6 +26,16 @@ try:
   book_button = browser.find_element_by_id("book")
   book_button.click()
 
+  # Найти вводные данные для вычисления
+  x_value = browser.find_element_by_id("input_value")
+
+  # Вычислить результат
+  result = calc(x_value.text)
+
+  # Найти поле ввода ответа
+  input_answer = browser.find_element_by_id("answer")
+  input_answer.send_keys(result)
+
 finally:
   time.sleep(10)
   # Закрыть браузер
