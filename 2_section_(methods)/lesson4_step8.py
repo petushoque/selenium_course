@@ -14,9 +14,11 @@ try:
   # Открыть страницу по ссылке
   browser.get(link)
 
+  # Найти элемент, отображающий цену и ждать пока она не будет равна 100
   price = WebDriverWait(browser, 12).until(
     EC.text_to_be_present_in_element((By.ID, "price"), "$100"))
 
+  # Нажать на кнопку
   book_button = browser.find_element_by_id("book")
   book_button.click()
 
