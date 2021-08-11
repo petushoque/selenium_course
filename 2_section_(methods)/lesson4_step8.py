@@ -39,6 +39,10 @@ try:
   input_answer = browser.find_element_by_id("answer")
   input_answer.send_keys(result)
 
+  # Найти кнопку submit и отправить решение
+  submit_button = browser.find_element_by_css_selector("button.btn-primary")
+  submit_button.click()
+
 finally:
   time.sleep(10)
   # Закрыть браузер
