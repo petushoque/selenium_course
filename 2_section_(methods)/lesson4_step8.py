@@ -16,6 +16,9 @@ try:
   price = WebDriverWait(browser, 12).until(
     EC.text_to_be_present_in_element((By.ID, "price"), "100")
 
+    book_button = browser.find_element_by_id("book")
+    book_button.click()
+
     
 finally:
     # Закрыть браузер
