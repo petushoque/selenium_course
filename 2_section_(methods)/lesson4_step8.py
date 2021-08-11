@@ -15,17 +15,14 @@ try:
   browser.get(link)
 
   price = WebDriverWait(browser, 12).until(
-    EC.text_to_be_present_in_element((By.ID, "price"), "100"))
-
-  print(price)
+    EC.text_to_be_present_in_element((By.ID, "price"), "$100"))
 
   book_button = browser.find_element_by_id("book")
   book_button.click()
 
-    
 finally:
-  time.sleep(5)
+  time.sleep(10)
   # Закрыть браузер
   browser.quit()
-
+  
 # Пустая строка в конце
