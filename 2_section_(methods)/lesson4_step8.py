@@ -14,7 +14,7 @@ try:
   browser.get(link)
 
   price = WebDriverWait(browser, 12).until(
-    EC.text_to_be_present_in_element((By.ID, "price"), )
+    EC.text_to_be_present_in_element((By.ID, "price"), "100")
 
     
 finally:
