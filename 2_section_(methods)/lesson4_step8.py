@@ -4,6 +4,10 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
 import time
 
+# Функция для вычисления значения выражения
+def calc(x):
+  return str(math.log(abs(12*math.sin(int(x)))))
+
 link = "http://suninjuly.github.io/explicit_wait2.html"
 
 browser = webdriver.Chrome()
