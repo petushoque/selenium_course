@@ -26,6 +26,8 @@ try:
   book_button = browser.find_element_by_id("book")
   book_button.click()
 
+  browser.execute_script("return arguments[0].scrollIntoView(true);", book_button)
+
   # Найти вводные данные для вычисления
   x_value = browser.find_element_by_id("input_value")
 
