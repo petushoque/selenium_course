@@ -25,7 +25,7 @@ try:
     
 finally:
   time.sleep(5)
-    # Закрыть браузер
-    browser.quit()
+  # Закрыть браузер
+  browser.quit()
 
 # Пустая строка в конце
