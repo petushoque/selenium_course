@@ -4,6 +4,7 @@
 * [3.2.6](https://github.com/petushoque/selenium_course/blob/main/3_section_(frameworks)/lesson2_step6.py) Проверка ожидаемого результата;
 * [3.2.8](https://github.com/petushoque/selenium_course/blob/main/3_section_(frameworks)/lesson2_step8.py) Составное сообщение об ошибке;
 * [3.2.9](https://github.com/petushoque/selenium_course/blob/main/3_section_(frameworks)/lesson2_step9.py) Поиск подстроки;
+* [3.2.13](https://github.com/petushoque/selenium_course/blob/main/3_section_(frameworks)/lesson2_step13.py) Оформление в стиле unittest;
 - - -
 ### Полезные методы Selenium &#128204;
 * [2.1.5](https://github.com/petushoque/selenium_course/blob/main/2_section_(methods)/lesson1_step5.py) Чекбокс и радиокнопка;
