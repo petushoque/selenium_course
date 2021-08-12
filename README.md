@@ -1,6 +1,6 @@
 # Содержание
 - - -
-### Тестовые фреймворки
+### Тестовые фреймворки &#128013;
 * [3.2.6](https://github.com/petushoque/selenium_course/blob/main/3_section_(frameworks)/lesson2_step6.py) Проверка ожидаемого результата;
 * [3.2.8](https://github.com/petushoque/selenium_course/blob/main/3_section_(frameworks)/lesson2_step8.py) Составное сообщение об ошибке;
 * [3.2.9](https://github.com/petushoque/selenium_course/blob/main/3_section_(frameworks)/lesson2_step9.py) Поиск подстроки;
