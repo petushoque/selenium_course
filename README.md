@@ -1,5 +1,8 @@
 # Содержание
 - - -
+### 
+* [3.2.8](https://github.com/petushoque/selenium_course/blob/main/3_section_(frameworks)/lesson2_step8.py)
+- - -
 ### Полезные методы Selenium &#128204;
 * [2.1.5](https://github.com/petushoque/selenium_course/blob/main/2_section_(methods)/lesson1_step5.py) Чекбокс и радиокнопка;
 * [2.1.7](https://github.com/petushoque/selenium_course/blob/main/2_section_(methods)/lesson1_step7.py) Получить значение атрибута;
