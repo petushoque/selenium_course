@@ -19,7 +19,7 @@ class TestRegistration(unittest.TestCase):
         
         self.assertEqual("Congratulations! You have successfully registered!", welcome_text, "Should be absolute value of a number")
         
-    def test_registration_page(self):
+    def test_registration_page_2(self):
 
         link = "http://suninjuly.github.io/registration2.html"
         browser = webdriver.Chrome()
