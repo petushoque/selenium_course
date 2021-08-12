@@ -35,7 +35,7 @@ class TestRegistration(unittest.TestCase):
         welcome_text_elt = browser.find_element_by_tag_name("h1")
         welcome_text = welcome_text_elt.text
         
-        self.assertEqual(abs(-42), -42, "Should be absolute value of a number")
+        self.assertEqual("Congratulations! You have successfully registered!", welcome_text, "Should be absolute value of a number")
         
 if __name__ == "__main__":
     unittest.main()
