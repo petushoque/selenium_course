@@ -9,6 +9,7 @@
 * [3.4.3](https://github.com/petushoque/selenium_course/blob/main/3_section_(frameworks)/lesson4_step3.py) Фикстуры;
 * [3.4.4](https://github.com/petushoque/selenium_course/blob/main/3_section_(frameworks)/lesson4_step4.py) Финализаторы;
 * [3.4.5](https://github.com/petushoque/selenium_course/blob/main/3_section_(frameworks)/lesson4_step5.py) Область видимости scope;
+* [3.4.6](https://github.com/petushoque/selenium_course/blob/main/3_section_(frameworks)/lesson4_step6.py) Автоиспользование фикстур;
 - - -
 ### Полезные методы Selenium &#128204;
 * [2.1.5](https://github.com/petushoque/selenium_course/blob/main/2_section_(methods)/lesson1_step5.py) Чекбокс и радиокнопка;
