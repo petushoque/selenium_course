@@ -20,9 +20,9 @@ def print_smiling_faces():
 
 class TestPrintSmilingFaces():
     def test_first_smiling_faces(self, prepare_faces, very_important_fixture):
-        # какие-то проверки
+        print(1)
 
     def test_second_smiling_faces(self, prepare_faces):
-        # какие-то проверки
+        print(2)
 
 # не забываем оставить пустую строку в конце файла
